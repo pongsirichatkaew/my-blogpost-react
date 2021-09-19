@@ -9,6 +9,25 @@ export const rotate = keyframes`
   }
 `;
 
+export const hide = keyframes`
+0%{
+  transform: translateY(0px);
+
+}
+100%{
+  transform: translateY(-113px);
+}
+`;
+
+export const show = keyframes`
+0%{
+  transform: translateY(-113px);
+}
+100%{
+  transform: translateY(0px);
+}
+`;
+
 export const moveUp = keyframes`
  from {
     transform: translateY(0);
